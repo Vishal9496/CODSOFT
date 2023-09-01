@@ -1,0 +1,307 @@
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body {
+      background-color: #4F4F51;
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+
+    }
+
+    header {
+      background-color: #347bd2;
+
+    }
+
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 50px;
+      width: 100%;
+      background-color: #1560bd;
+    }
+
+    .right {
+      justify-content: space-around;
+    }
+
+    nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 0 12px;
+
+    }
+
+    nav ul li a u {
+      text-decoration: none !important;
+      color: white;
+    }
+
+    nav ul li button:hover {
+      background-color: rgb(182, 86, 106);
+      font-size: 1.0rem;
+    }
+
+    nav ul li a u:hover {
+      color: black;
+      font-size: 1.2rem;
+    }
+
+    .left {
+      font-family: 'Poppins', sans-serif;
+      font-size: 3rem;
+    }
+
+    .dot {
+      margin: 0px 15px;
+      background-color: linen;
+      padding: 2px 8px;
+      border-radius: 8px;
+      border: none;
+      font-size: 18px;
+
+    }
+
+    .firstsection {
+      display: flex;
+      margin: 50px 0 auto;
+      align-items: center;
+      justify-content: space-evenly;
+
+    }
+
+    .leftsection {
+      width: 120%;
+      font-size: 2.8rem;
+      margin: 50px;
+    }
+    .leftsection .btn{
+     
+      margin: 50px;
+    }
+     .leftsection .btn .bt {
+      margin: 5px;
+      font-size: 20px;
+      padding: 15px;
+       border:2px solid black;
+      border-radius: 5px;
+      background-color: #171717;
+      color:white;
+      cursor : pointer;
+    }
+
+    .rightsection {
+      margin: 0% 2%;
+      height: 3%;
+    }
+
+    img {
+      width: 60%;
+      margin: 0% 20%;
+
+    }
+
+    .red {
+      color: rgb(243, 123, 110);
+      font-size: 110%;
+    }
+
+    #element {
+      font-size: 120%;
+      color: salmon;
+    }
+
+    .secondsection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+
+    .secondsection h1 {
+      font-size: 2.8rem;
+    }
+
+    .text-grey {
+      color: black;
+    }
+
+    main hr {
+      margin: 20px;
+      height: 2px;
+      background-color: black;
+      width: 100%;
+
+    }
+
+    #study {
+      text-shadow: 3px 3px 5px black;
+    }
+
+    .secondsection .box1 {
+      background-color: white;
+      width: 80vw;
+      height: 2px;
+      margin: 50px 0px;
+      display: flex;
+
+    }
+
+    .secondsection .vertical {
+      height: 65px;
+      width: 2px;
+      margin: 0 100px;
+      background: white;
+    }
+
+    .image-top-1 {
+      width: 33px;
+      position: relative;
+      top: -20px;
+      left: -5px;
+
+    }
+
+    .image-top-2 {
+      width: 23px;
+      position: relative;
+      top: -30px;
+      left: -5px;
+
+    }
+
+    .image-top-3 {
+      width: 23px;
+      position: relative;
+      top: -30px;
+      left: -5px;
+
+    }
+
+    .image-top-4 {
+      width: 48px;
+      position: relative;
+      top: -48px;
+      left: -12px;
+
+    }
+
+    .vertical-title-1 {
+      position: relative;
+      top: 45px;
+      font-size: 28px;
+
+    }
+
+    .vertical-desc-1 {
+      position: relative;
+      top: 50px;
+      left: -5px;
+      color: red;
+      width: 150px;
+      font-size: 18px;
+    }
+
+    .vertical-title-2 {
+      position: relative;
+      top: 35px;
+      left: -6px;
+      font-size: 28px;
+
+    }
+
+    .vertical-desc-2 {
+      position: relative;
+      top: 40px;
+      left: -5px;
+      color: red;
+      width: 150px;
+      font-size: 20px;
+    }
+
+    .vertical-title-3 {
+      position: relative;
+      top: 38px;
+      left: -8px;
+      font-size: 28px;
+
+    }
+
+    .vertical-desc-3 {
+      position: relative;
+      top: 40px;
+      left: -5px;
+      color: red;
+      width: 150px;
+      font-size: 20px;
+    }
+
+    .vertical-title-4 {
+      position: relative;
+      top: 15px;
+      left: -5px;
+      font-size: 28px;
+
+    }
+
+    .vertical-desc-4 {
+      position: relative;
+      top: 20px;
+      left: -5px;
+      color: red;
+      width: 160px;
+      font-size: 20px;
+    }
+
+    footer {
+      background-color: lavender;
+      height: 550px;
+    }
+
+    .footer {
+      display: flex;
+      padding: 30px 100px;
+      justify-content: space-evenly;
+    }
+    footer .footer-rights{
+      text-align: center;
+      background-color:grey;
+    }
+    .title {
+      text-transform: uppercase;
+      color: #1f67db;
+      letter-spacing: 1px;
+      font-size: 45px;
+    }
+
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 0;
+      gap: 40px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #c7adab;
+      box-shadow: 5px 5px 10px #3D474B;
+      border-radius: 10px;
+      padding: 20px;
+      transition: 0.5s;
+      position: relative;
+      overflow: hidden;
+      height: 110px;
+    }
+</style>
