@@ -1,7 +1,19 @@
-# This repository contains the code for my first web development project, a personal portfolio website!
-# Project Description:
-# This portfolio website showcases my skills and experience in web development using HTML, CSS, and JavaScript. It features sections for introducing myself, highlighting my skills, and displaying my projects.
-# Technologies Used:
-# HTML: Used to structure the content of the webpage.
-# CSS: Used to style the webpage, including layout, colors, and fonts.
-# JavaScript : Used to make the portfolio more interactive
+# Vishal's Portfolio 🌟  
+
+Welcome to my **personal portfolio website**! This is a simple yet **well-structured and responsive** website built using **HTML and CSS** to showcase my skills and experience.  
+
+## 📌 Features  
+
+✅ **Responsive Design** – Works on all screen sizes  
+✅ **Clean Navigation Bar** – Easy access to different sections  
+✅ **Hero Section** – Introduction with a stylish design  
+✅ **Skills Showcase** – Highlights my technical expertise  
+✅ **Dark-Themed UI** – Modern and aesthetic styling  
+
+## 🛠️ Technologies Used  
+
+- **HTML5** – To structure the webpage  
+- **CSS3** – For styling and responsiveness  
+
+## 📂 Project Structure  
+
