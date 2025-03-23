@@ -1,107 +1,86 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Vishal's_portfolio</title>
-  <link rel ="stylesheet" href="Me.css">
+  <title>Vishal's Portfolio</title>
+  <link rel="stylesheet" href="Me.css">
 </head>
 
 <body>
   <header>
     <nav>
-      <div class="left">Vishal's portfolio</div>
-      <div class="right">
-        <ul>
-          <li><a href="/"><u>Home</u></a></li>
-          <li><a href="/"><u>About</u></a></li>
-          <li><a href="/"><u>Contact me</u></a></li>
-          <li><a href="/"><u>Details</u></a></li>
-          <li><button class="dot">Sign In</button></li>
-          <li><button class="dot">Sign Up</button></li>
-        </ul>
-      </div>
+      <div class="logo">Vishal's Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><button class="btn">Sign In</button></li>
+        <li><button class="btn">Sign Up</button></li>
+      </ul>
     </nav>
   </header>
+
   <main>
-    <section class="firstsection">
-      <div class="leftsection">Hello<div> my name is <span class="red">Vishal</span>
-          <div>and</div>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="highlight">Vishal</span></h1>
+        <h2>I'm <span id="element"></span></h2>
+        <div class="btn-group">
+          <button class="btn">Resume</button>
+          <button class="btn">GitHub</button>
         </div>
-        <div>I'm <span id="element"></span></div>
-        <div class="btn">
-          <button class="bt">Resume download</button>
-          <button class="bt">Github</button>
-        </div>
-       
       </div>
-      
-
-      <div class="rightsection"><img src="developer_1.png" alt="Developer image"></div>
+      <div class="hero-image">
+        <img src="img/developer_1.png" alt="Developer Image">
+      </div>
     </section>
-    <hr>
-    <section class="secondsection">
-      <span class="text-grey">what I had learned so far </span>
-      <h1 id="study">learnings</h1>
-      <div class="box1">
-        <div class="vertical">
-          <img class="image-top-1" src="html.png" alt="HTML">
-          <div class="vertical-title-1">HTML</div>
-          <div class="vertical-desc-1">My html is perfect at my point of view</div>
-        </div>
-      <div class="vertical">
-        <img class="image-top-2" src="css.png" alt="CSS">
-        <div class="vertical-title-2">CSS</div>
-        <div class="vertical-desc-2">CSS is used for styling the page learning it in few days takes moderate time</div>
-      </div>
-      <div class="vertical">
-        <img class="image-top-3" src="javascript.jpeg" alt=" JAVASCRIPT">
 
-        <div class="vertical-title-3">JAVASCRIPT</div>
-        <div class="vertical-desc-3">Javascript is a prototype oops based language javascript is the main part of frontend learning it is very difficult</div>
-      </div>
-      <div class="vertical">
-        <img class="image-top-4" src="java.png" alt="JAVA">
-        <div class="vertical-title-4">JAVA</div>
-        <div class="vertical-desc-4">Java ia completely oops based programming language it is the most famous programming language learning it is quite difficult </div>
-      </div>
-      </div>
+    <section class="skills">
+      <h1>My Skills</h1>
+      <div class="skill-container">
+        <div class="skill-box">
+          <img src="img/html.png" alt="HTML">
+          <h3>HTML</h3>
+          <p>Structuring web pages effectively</p>
+        </div>
+        <div class="skill-box">
+          <img src="img/css.png" alt="CSS">
+          <h3>CSS</h3>
+          <p>Enhancing visual appeal & responsiveness</p>
+        </div>
+        <div class="skill-box">
+          <img src="img/javascript.jpeg" alt="JavaScript">
+          <h3>JavaScript</h3>
+          <p>Creating interactive web applications</p>
+        </div>
+        <div class="skill-box">
+          <img src="img/java.png" alt="Java">
+          <h3>Java</h3>
+          <p>Developing scalable backend systems</p>
+        </div>
       </div>
     </section>
   </main>
+
   <footer>
-    <div class="footer">
-      <div class="footer-first">
-        <h2>Vishal Developer's portfolio</h2>  
-      </div>
-     
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p>📞 7396626156</p>
+      <p>✉️ vishalkothimire003@gmail.com</p>
     </div>
-    <section id="contact">
-      <h1 class="title">Contact</h1>
-      <div class="cards">
-        <div class="card">
-          <ion-icon name="call-outline"></ion-icon>
-          <h3>Phone</h3>
-          <p>7396626156</p>
-        </div>
-        <div class="card">
-          <ion-icon name="mail-outline"></ion-icon>
-          <h3>Email</h3>
-          <p>vishalkothimire003@gmail.com</p>
-        </div>
-      </div>
-       <div class="footer-rights">Copyright &#169;www.vishal's portfolio | All rights reserved</div>
-    </section>
+    <p>&copy; 2025 Vishal's Portfolio | All rights reserved</p>
   </footer>
+
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed('#element', {
-      strings: ['<i>web developer intern</i>', '<i>Tech Enthusiastic person</i>'],
+      strings: ['Web Developer', 'Tech Enthusiast'],
       typeSpeed: 50,
     });
   </script>
 </body>
+
 </html>
